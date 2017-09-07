@@ -1,0 +1,104 @@
+.app img{
+	margin: 10px auto;
+}
+.client{
+	margin-top: 60px;
+}
+.app{
+	max-width: 240px;
+	height: 310px;
+	margin: 0px auto;
+	border: 1px solid gainsboro;
+	border-radius: 8px;
+	padding-top: 30px;
+	margin-bottom: 60px;
+}
+.app p{
+	margin-top: 20px;
+	
+}
+/*.btn{
+	margin-top: 20px;
+	color: white;
+	width: 140px;
+	height: 40px;
+	background-color: rgb(238,87,77);
+	border-radius: 10px;
+}*/
+.app1{
+	background-image: url(../img/1223.png);
+	height: 800px;
+	background-repeat: no-repeat;
+}
+
+.app2{
+	background-image: url(../img/222.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+}
+.text1{
+	margin-top: 200px;
+}
+.text2{
+	margin-top: 100px;
+}
+.text1 button{
+	margin-top: 20px;
+	color: white;
+	width: 200px;
+	height: 60px;
+	background-color: rgb(238,87,77);
+	border-radius: 10px;
+	font-size: 30PX;
+}
+.text2 button{
+	margin-top: 20px;
+	color: white;
+	width: 200px;
+	height: 60px;
+	background-color: rgb(238,87,77);
+	border-radius: 10px;
+	font-size: 30PX;
+}
+
+.download-btn{
+	width:140px;
+height:40px;
+background-color:#f26355;
+color:#fff;font-size:18px; 
+border-radius:8px;
+}
+.download-btn:hover{ 
+	background-color:#ea554e; 
+	cursor:pointer;
+	}
+
+.code{
+	 width:260px; 
+	 height:250px; 
+	 border:1px solid #ddd; 
+	 background-color:#fff; 
+	 background-image:url(../img/erweima.png); 
+	 background-repeat:no-repeat; 
+	 background-position:center;
+	 display:none;
+	 position:relative; 
+	 margin-top:70px; 
+	 border-radius:8px;
+	 z-index: 2;
+	 }
+.white-arrow,.gray-arrow{ 
+	font-size:50px; 
+	position:absolute;
+	z-index: 1;
+	}
+.white-arrow{ 
+	top:-38px; 
+	right:55px;
+	color:#ddd;
+	}
+.gray-arrow{
+	top:-36px; 
+	right:55px; 
+	color:#fff;
+	}

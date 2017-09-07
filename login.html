@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/default.css"/>
+	<script type="text/javascript" src="js/default.js"></script>
+	<script type="text/javascript" src="js/serv.js"></script>
+	<title>登录辅导君</title>
+	<style type="text/css">
+		.btn-login{
+			width:100%;
+			height:40px;
+			font-size:20px;
+		}
+	</style>
+</head>
+<body id="login">
+	<nav class="navbar navbar-default bg">
+		<a href="index.html" class="navbar-brand" style="position: absolute;left: 2%;"><img src="img/fudaojun_logo.png"/></a>
+		<div class="container-fluid">
+			<div class="navbar-header" style="height: 80px;">
+				<button class="navbar-toggle" id="navControl" data-toggle="collapse" data-target="#homeNav" style="margin-top: 25px;">
+					<span class="icon-bar sp0"></span>
+					<span class="icon-bar sp1"></span>
+					<span class="icon-bar sp2"></span>
+				</button>
+			</div>
+			<div id="homeNav" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav" style="font-size: 15px;">
+					<li style="padding-top: 10px;">
+						<a href="index.html" class="nav-a">首页<span class="border"></span></a>	
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="advantage.html" class="nav-a">五大优势<span class="border"></span></a>
+						
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="teacher.html" class="nav-a">顶尖师资<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="studentcase.html" class="nav-a">学员案例<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="download.html" class="nav-a">下载客户端<span class="border"></span></a>
+					</li>
+					<li class="selected" style="padding-top: 10px;">
+						<a href="javascript:void(0);" class="nav-a" id="legal-user"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section>
+		<br><br>
+		<form role="form" action="http://localhost/fudaojun/login.php" method="post">
+			<div class="container form-group">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+							<div class="col-md-6">
+								<h2>登录辅导君</h2>
+							</div>
+							<div class="col-md-6">
+							<br>
+								<h4>还没有账号？<a href="regist.html">马上注册</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-3">
+						<br><br>
+						<h5>手机号</h5>
+						<input type="phone" class="form-control" id="name" name="uname" placeholder="请输入手机号码">
+					</div>
+					<div class="col-md-6 col-md-offset-3">
+						<br>
+						<h5>密码</h5>
+						<input type="password" class="form-control" id="pwd" name="pwd" placeholder="请输入密码">
+						<label id="msg" style="color: red;display: none;" for="name"></label>
+					</div>
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+						<br>
+							<div class="col-md-6">
+								<h5>验证码</h5>
+								<input type="text" id="inputcode" name="code" class="form-control" placeholder="请输入验证码">
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+								<br><br>
+									<div class="col-md-3">
+										<div style="height:26px;width:60px;line-height: 26px;border:1px solid #ccc;text-align: center;" id="code"></div>
+									</div>
+									<div class="col-md-9">
+										<a href="javascript:changeCode();">看不清,换一张</a>
+									</div>
+								</div>
+								<label id="codeMsg" style="color: red;display: none;"></label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-3">
+						<br><br>
+						<input class="btn btn-danger btn-login" value="立即登录" onclick="login()">
+					</div>
+					<div class="col-md-6 col-md-offset-3" style="text-align:right;">
+						<br>
+						<h4><a href="reset_pwd.html">忘记密码</a></h4>
+					</div>
+				</div>
+			</div>
+		</form>			
+	</section>
+
+	<footer>
+		<div class="container-fluid bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>帮助中心</span></h5>
+							<ul>
+								<li><a href="#">使用帮助</a></li>
+								<li><a href="faq.html">意见反馈</a></li>
+								<li><a href="#">学习指导</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>关于我们</span></h5>
+							<ul>
+								<li><a href="about.html">公司介绍</a></li>
+								<li><a href="about.html">加入我们</a></li>
+								<li><a href="rule.html">网站条款</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5>	<span>联系我们</span></h5>
+							<ul>
+								<li><a href="#">400-036-2990</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
+						<div class="row">
+							<h5><span>关注我们</span></h5>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat.png"/>
+								<p>辅导君微信服务号</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat_dayijun.png"/>
+								<p>答疑君微信服务号</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				
+				<div class="row copyriht text-left">
+					<p>Copyright &copy;  2016 杭州微著网络有限公司 |
+					<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" 
+						title="ICP" target="_blank">
+						浙ICP备09061298号-5 <img src="img/fudaojun_police.png" width="16px">
+					</a>
+					| 浙江省杭州市古墩路413号文新图书大楼9F</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

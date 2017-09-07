@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/default.css"/>
+	<script type="text/javascript" src="js/default.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/courses.css">
+	<script type="text/javascript" src="js/courses.js"></script>
+	<title>辅导君课程</title>
+</head>
+<body>
+	<nav class="navbar navbar-default bg">
+		<a href="index.html" class="navbar-brand" style="position: absolute;left: 2%;"><img src="img/fudaojun_logo.png"/></a>
+		<div class="container-fluid">
+			<div class="navbar-header" style="height: 80px;">
+				<button class="navbar-toggle" id="navControl" data-toggle="collapse" data-target="#homeNav" style="margin-top: 25px;">
+					<span class="icon-bar sp0"></span>
+					<span class="icon-bar sp1"></span>
+					<span class="icon-bar sp2"></span>
+				</button>
+			</div>
+			<div id="homeNav" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav" style="font-size: 15px;">
+					<li style="padding-top: 10px;">
+						<a href="index.html" class="nav-a">首页<span class="border"></span></a>	
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="advantage.html" class="nav-a">五大优势<span class="border"></span></a>
+						
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="teacher.html" class="nav-a">顶尖师资<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="studentcase.html" class="nav-a">学员案例<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="download.html" class="nav-a">下载客户端<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="javascript:void(0);" class="nav-a" id="legal-user"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="container grade">
+		<br>
+		<div class="row">
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-danger" id="senior3">高三全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="senior2">高二全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="senior1">高一全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="secondary3">初三全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="secondary2">初二全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="secondary1">初一全科1对1</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="primary">小学全科</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="senior-competion">高中竞赛</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="other-competion">小初竞赛</button></div>
+			<div class="col-md-2 col-sm-3 col-xs-4"><button class="btn btn-default" id="special">特殊课程</button></div>
+		</div>
+	</section>
+
+	<section class="container cost">
+		<br><br>
+		<div class="row active senior3">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高三全科1对1·40课时</h3>
+				<br>
+				现价：<span>5200.00</span>元 <br>
+				<s>原价：8000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高三全科1对1·80课时</h3>
+				<br>
+				现价：<span>10000.00</span>元 <br>
+				<s>原价：16000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高三全科1对1·160课时</h3>
+				<br>
+				现价：<span>19200.00</span>元 <br>
+				<s>原价：32000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高三全科1对1·320课时</h3>
+				<br>
+				现价：<span>36800.00</span>元 <br>
+				<s>原价：64000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row senior2">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高二全科1对1·40课时</h3>
+				<br>
+				现价：<span>4400.00</span>元 <br>
+				<s>原价：7200.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高二全科1对1·80课时</h3>
+				<br>
+				现价：<span>8400.00</span>元 <br>
+				<s>原价：14400.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高二全科1对1·160课时</h3>
+				<br>
+				现价：<span>16000.00</span>元 <br>
+				<s>原价：28800.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高二全科1对1·320课时</h3>
+				<br>
+				现价：<span>30400.00</span>元 <br>
+				<s>原价：57600.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row senior1">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高一全科1对1·40课时</h3>
+				<br>
+				现价：<span>4000.00</span>元 <br>
+				<s>原价：6600.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高一全科1对1·80课时</h3>
+				<br>
+				现价：<span>7600.00</span>元 <br>
+				<s>原价：13200.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高一全科1对1·160课时</h3>
+				<br>
+				现价：<span>14400.00</span>元 <br>
+				<s>原价：26400.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高一全科1对1·320课时</h3>
+				<br>
+				现价：<span>27200.00</span>元 <br>
+				<s>原价：52800.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row secondary3">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初三全科1对1·40课时</h3>
+				<br>
+				现价：<span>4000.00</span>元 <br>
+				<s>原价：6600.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初三全科1对1·80课时</h3>
+				<br>
+				现价：<span>7600.00</span>元 <br>
+				<s>原价：13200.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初三全科1对1·160课时</h3>
+				<br>
+				现价：<span>14400.00</span>元 <br>
+				<s>原价：26400.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初三全科1对1·320课时</h3>
+				<br>
+				现价：<span>27200.00</span>元 <br>
+				<s>原价：52800.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row secondary2">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初二全科1对1·40课时</h3>
+				<br>
+				现价：<span>3600.00</span>元 <br>
+				<s>原价：6400.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初二全科1对1·80课时</h3>
+				<br>
+				现价：<span>6800.00</span>元 <br>
+				<s>原价：12800.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初二全科1对1·160课时</h3>
+				<br>
+				现价：<span>12800.00</span>元 <br>
+				<s>原价：25600.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初二全科1对1·320课时</h3>
+				<br>
+				现价：<span>24000.00</span>元 <br>
+				<s>原价：51200.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row secondary1">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初一全科1对1·40课时</h3>
+				<br>
+				现价：<span>3600.00</span>元 <br>
+				<s>原价：6000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初一全科1对1·80课时</h3>
+				<br>
+				现价：<span>6800.00</span>元 <br>
+				<s>原价：12000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初一全科1对1·160课时</h3>
+				<br>
+				现价：<span>12800.00</span>元 <br>
+				<s>原价：24000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>初一全科1对1·320课时</h3>
+				<br>
+				现价：<span>24000.00</span>元 <br>
+				<s>原价：48000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row primary">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小学全科·40课时</h3>
+				<br>
+				现价：<span>3600.00</span>元 <br>
+				<s>原价：6000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小学全科·80课时</h3>
+				<br>
+				现价：<span>6800.00</span>元 <br>
+				<s>原价：12000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小学全科·160课时</h3>
+				<br>
+				现价：<span>12800.00</span>元 <br>
+				<s>原价：24000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小学全科·320课时</h3>
+				<br>
+				现价：<span>24000.00</span>元 <br>
+				<s>原价：48000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row senior-competion">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高中竞赛·40课时</h3>
+				<br>
+				现价：<span>6000.00</span>元 <br>
+				<s>原价：8800.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高中竞赛·80课时</h3>
+				<br>
+				现价：<span>11600.00</span>元 <br>
+				<s>原价：17600.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高中竞赛·160课时</h3>
+				<br>
+				现价：<span>22400.00</span>元 <br>
+				<s>原价：35200.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>高中竞赛·320课时</h3>
+				<br>
+				现价：<span>43200.00</span>元 <br>
+				<s>原价：70400.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row other-competion">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小初竞赛·40课时</h3>
+				<br>
+				现价：<span>5200.00</span>元 <br>
+				<s>原价：8000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小初竞赛·80课时</h3>
+				<br>
+				现价：<span>10000.00</span>元 <br>
+				<s>原价：16000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小初竞赛·160课时</h3>
+				<br>
+				现价：<span>19200.00</span>元 <br>
+				<s>原价：32000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>小初竞赛·320课时</h3>
+				<br>
+				现价：<span>36800.00</span>元 <br>
+				<s>原价：64000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+		<div class="row special">
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>特殊竞赛·40课时</h3>
+				<br>
+				现价：<span>5200.00</span>元 <br>
+				<s>原价：8000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>特殊竞赛·80课时</h3>
+				<br>
+				现价：<span>10000.00</span>元 <br>
+				<s>原价：16000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>特殊竞赛·160课时</h3>
+				<br>
+				现价：<span>19200.00</span>元 <br>
+				<s>原价：32000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6">
+				<br><br><br>
+				<h3>特殊竞赛·320课时</h3>
+				<br>
+				现价：<span>36800.00</span>元 <br>
+				<s>原价：64000.00元</s>
+				<br><br><br>
+				<button class="btn btn-default">点击购买</button>
+				<br><br><br>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container-fluid bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>帮助中心</span></h5>
+							<ul>
+								<li><a href="#">使用帮助</a></li>
+								<li><a href="faq.html">意见反馈</a></li>
+								<li><a href="#">学习指导</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>关于我们</span></h5>
+							<ul>
+								<li><a href="about.html">公司介绍</a></li>
+								<li><a href="about.html">加入我们</a></li>
+								<li><a href="rule.html">网站条款</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5>	<span>联系我们</span></h5>
+							<ul>
+								<li><a href="#">400-036-2990</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
+						<div class="row">
+							<h5><span>关注我们</span></h5>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat.png"/>
+								<p>辅导君微信服务号</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat_dayijun.png"/>
+								<p>答疑君微信服务号</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				
+				<div class="row copyriht text-left">
+					<p>Copyright &copy;  2016 杭州微著网络有限公司 |
+					<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" 
+						title="ICP" target="_blank">
+						浙ICP备09061298号-5 <img src="img/fudaojun_police.png" width="16px">
+					</a>
+					| 浙江省杭州市古墩路413号文新图书大楼9F</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.bd_titlebg{ 
+	width:773px; 
+	height:62px;
+	position:absolute; 
+	left:90px; 
+	top:-26px; 
+	font-size:34px; 
+	text-align:center; 
+	color:#e56052; 
+	line-height:63px; 
+	font-family: "方正兰亭大黑_GBK","微软雅黑";
+}
+.bd_titlebg span{ 
+	font-size:16px; 
+	color:#666; 
+	font-family:"微软雅黑";
+}
+.bd-table{ 
+	margin:0 auto; 
+	text-align:center
+	;margin-top: 40px;
+}
+.bd-table thead{ 
+	height:55px; 
+	background:#e56052; 
+	line-height:55px; 
+	font-size:20px; 
+	color:#fff;
+	border-left:1px solid #f26355; 
+	border-right:1px solid #f26355;
+}
+.bd-table tbody{ 
+	line-height:52px; 
+	font-size:16px; 
+	border-left:1px solid #ddd; 
+	border-right:1px solid #ddd;
+}
+.bd-banner a{
+	width:326px;
+	height:49px; 
+	background-color:#f26355;
+	color:#fff; 
+	font:34px "方正大黑简体"; 
+	text-align:center; 
+	line-height:49px;
+	border-bottom:7px solid #dd4f41;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	position: absolute; left:50%; 
+	margin-left:-163px; top:410px; 
+	cursor:pointer; 
+	text-decoration:none;
+	}

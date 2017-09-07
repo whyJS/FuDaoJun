@@ -1,0 +1,11 @@
+.grade .row{border: 1px solid #ccc;padding: 10px;}
+.grade .row div{padding: 5px;}
+.cost div{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+section span{
+	color: rgb(255,67,38);
+	font-size: 24px;
+}
+.active

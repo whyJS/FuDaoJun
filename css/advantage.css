@@ -1,0 +1,160 @@
+/*section .row .bck{
+	background: url(../image/advantage_section1.png);
+	width: 500px;
+	height: 520px;
+	border: 1px solid black;
+}*/
+/*-------------------------------------------*/
+#top_bg{
+	height: 500px;
+	background-color: #cad1d7;
+}
+#img{
+	
+	min-height: 500px;
+	background: url(../img/image_advantage/advantage_bag.png);
+	/*background-repeat: repeat-x;*/
+	background-size: cover;
+}
+#insert{opacity: 0;;}
+@media only screen and (min-width:1000px ) {
+	#insert{display: none;}
+}
+@media only screen and (max-width:767px ) {
+	#insert{display: none;}
+}
+.bag1{
+	background-color: #f26355;
+}
+.bag1 img:hover{
+	transform: scale(1.1);
+}
+.bag2{
+	margin-top: 10px;
+	background-color: #f8f7f7;
+}
+.bag2 .adv-intro .title{ 
+	height:64px;
+	border-left:6px solid #f26355;
+	padding-left:20px;
+	line-height:26px;
+}
+.bag2 .adv-intro .title h1{ 
+	font-size:30px; 
+	color:#333; 
+	font-weight:normal; 
+}
+.bag2 .adv-intro .title h2{ 
+	font-size:22px; 
+	color:#888; 
+	font-weight:normal; 
+	margin-top:13px;
+}
+.bag2 .intro-list{
+	margin-top:56px;
+	list-style: none;
+}
+.bag2 .intro-list li{ 
+	font-size:16px; 
+	color:#555; 
+	padding-left:11px; 
+	line-height:30px; 
+	position:relative;
+}
+.bag2 .intro-list li:before{ 
+	content:''; 
+	width:8px; 
+	height:8px;
+	display:block; 
+	background:#f26355; 
+	border-radius:50%;
+	-moz-border-radius:50%; 
+	z-index:1;
+	position:absolute; 
+	left:-5px; 
+	top:12px;
+}
+/*0预约试听按钮*/
+.bag2 .order-btn{ 
+	width:224px; 
+	height:48px; 
+	border-radius:8px; 
+	-moz-border-radius:8px; 
+	background:#f26355; 
+	color:#fff; 
+	font-size:26px; 
+	cursor:pointer;
+	margin-top:30px;
+	/*margin-left: 15px;*/
+}
+.bag2 .order-btn:hover{ 
+	background:#e54b42;
+}
+.bag2 .intro-left{ 
+	/*float:left;*/
+	padding-left:18%;
+	/*text-align: center;*/
+}
+.bag2 .intro-right{ 
+	float:right;
+	padding-right:60px;
+}
+/*表格*/
+
+@media(min-width: 1114px) {
+	.bag3{
+	/*padding-top:112px;*/ 
+	/*padding-left:83px; 
+	padding-bottom:115px;*/
+	width: 1100px;
+	margin: 0  auto;
+	}
+}
+/*.caption{
+	width:330px;
+	height:30px; 
+	border-left:6px solid #f26355; 
+	padding-left:20px;line-height:30px; 
+	position:absolute; left:50%; 
+	margin-left:-165px; 
+	top:57px;}
+}*/
+.bag3 caption{
+	font-size:30px; 
+	color:#333; 
+	font-weight:normal; 
+	text-align: center;
+}
+.bag3 caption div{
+	margin: 0 auto;
+	width: 400px;
+	height:40px;
+	border-left:6px solid #f26355;
+	padding-left:40px;
+	line-height:26px;
+}
+.bag3 .table thead{ 
+	height:68px; 
+	background:#d8d8d8;
+	border-top-left-radius:8px; 
+	border-top-right-radius:8px; 
+	font-size:18px; 
+	color:#333; 
+	line-height:68px;
+}
+.bag3 .table tbody{ 
+	line-height:54px; 
+	background:#fff; 
+	font-size:16px;
+}
+.bag3 .table tbody tr{
+	border-top:1px solid #d7d8dc;
+}
+.bag3 .table tbody .font1{ 
+	color:#f26355;
+}
+.bag3 .table tbody .font2{ 
+	color:#aaa;
+}
+
+

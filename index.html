@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width"/>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/default.css"/>
+	<link rel="stylesheet" type="text/css" href="css/right_column.css"/>
+	<script type="text/javascript" src="js/default.js"></script>
+	<title>辅导君首页</title>
+</head>
+<body id="index">
+	<nav class="navbar navbar-default bg">
+		<a href="#" class="navbar-brand" style="position: absolute;left: 2%;"><img src="img/fudaojun_logo.png"/></a>
+		<div class="container-fluid">
+			<div class="navbar-header" style="height: 80px;">
+				<button class="navbar-toggle" id="navControl" data-toggle="collapse" data-target="#homeNav" style="margin-top: 25px;">
+					<span class="icon-bar sp0"></span>
+					<span class="icon-bar sp1"></span>
+					<span class="icon-bar sp2"></span>
+				</button>
+			</div>
+			<div id="homeNav" class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav" style="font-size: 15px;">
+					<li class="selected" style="padding-top: 10px;">
+						<a href="#" class="nav-a">首页<span class="border"></span></a>	
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="advantage.html" class="nav-a">五大优势<span class="border"></span></a>
+						
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="teacher.html" class="nav-a">顶尖师资<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="studentcase.html" class="nav-a">学员案例<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="download.html" class="nav-a">下载客户端<span class="border"></span></a>
+					</li>
+					<li style="padding-top: 10px;">
+						<a href="javascript:void(0);" class="nav-a" id="legal-user"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header id="homeslide"  class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#homeslide" data-slide-to="0" class="active"></li>
+			<li data-target="#homeslide" data-slide-to="1"></li>
+			<li data-target="#homeslide" data-slide-to="2"></li>
+			<li data-target="#homeslide" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active min-wid" style="background:url(img/image_index/fudaojun_banner3.png);background-size:cover;">
+				<button class="btn1 btn-warning" onclick="showAppointMsg()">免费预约</button>
+			</div>
+			<div class="item" style="background:url(img/image_index/fudaojun_banner2.png);background-size:cover;">
+				<button class="btn4 btn-danger" onclick="showAppointMsg()">免费预约</button>
+			</div>
+			<div class="item" style="background:url(img/image_index/fudaojun_exam_banner.jpg);background-size:cover;">
+				<a href="study_exam.html"><button class="btn2 btn-danger">查看详情</button></a>
+			</div>
+			<div class="item" style="background:url(		img/image_index/fudaojun_banner4.png);background-size:cover;">
+				<a href="bang.html"><button class="btn3 btn-danger">立即查看</button></a>
+			</div>
+		</div>
+	</header>
+	
+	<section class="container-fluid">
+		<div class="row" id="teach-power">
+			<div class="col-md-6 col-md-push-6">
+				<br /><br /><br />
+				<img src="img/image_index/fudaojun_strength1.png" class="img-responsive"/>
+			</div>
+			<div class="col-md-6 col-md-pull-6" style="padding-left: 5%;">
+				<br /><br /><br />
+				<h1>汇集<span>名校师资</span></h1>
+				<h3>层层筛选，严格考察，打造金牌名师团队</h3>
+				<br /><br />
+				<h4><strong>核心力量：</strong>清华、北大、复旦、浙大名师团队 </h4>
+				<h4><strong>金牌团队：</strong>超百名省市级高考状元 </h4>
+				<h4><strong>资历认证：</strong>笔试－试讲三轮严格筛选确保师资质量  </h4>
+				<h4><strong>一线教研：</strong>一线名师课程设计，严控教学质量 </h4>
+				<br />
+				<img src="img/image_index/fudaojun_strength2.png" class="img-responsive"/>
+				<br /><br /><br />
+				<a href="teacher.html">了解名师团队</a>
+			</div>
+		</div>
+		
+		<div class="row" id="p2p">
+			<div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12"
+				style="background: url(img/image_index/fudaojun_1to1.png);background-size: cover;height: 600px;">
+				<div class="mode">
+					<h1><span>一对一在线辅导 </span>，您孩子的私人家教</h1>
+					<h3>教务<span>全程追踪</span>，锁定学员当前问题，<span>针对性攻克薄弱点</span></h3>
+					<br /><br />
+					<h4>专攻学员弱项，提升学习成效</h4>
+					<h4>电脑、平板、手机一键登录即可上课 </h4>
+					<h4>白板手写、语音通话，沟通无障碍，师生“0距离”</h4>
+					<h4>学生习题演练拍照上传，老师随时跟踪练习效果</h4>
+					<a href="advantage.html" class="learnAbout">了解产品优势&nbsp;&gt;</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="scoreUp" style="overflow:hidden;">
+			<div class="scoreUp-text">
+				<br /><br /><br />
+				<h1><span>用成绩说话</span>，提分才是硬道理</h1>
+				<h3><span>100000+</span>中学生正在使用辅导君</h3>
+				<h3><span>95%学员</span>在辅导一个月后成绩显著提升</h3>
+				<a href="studentcase.html">了解学员案例</a>
+			</div>
+			<img src="img/image_index/fudaojun_scores_1.png" class="img-responsive score1"/>
+			<img src="img/image_index/fudaojun_scores_2.png" class="img-responsive score2"/>
+			<img src="img/image_index/fudaojun_scores_3.png" class="img-responsive score3"/>
+			<img src="img/image_index/fudaojun_scores_4.png" class="img-responsive score4"/>
+		</div>
+		
+		<div id="score-scroll-table" class="container-fluid">
+			<br /><br /><br />
+			<table class="table bg table-responsive">
+				<caption><h1>学员<span>战绩榜</h1></span>
+					<h3>中高考排名及进步幅度<span>Top30</span>学员榜</h3>
+				</caption>
+				<thead>
+					<tr class="big-title">
+						<td class="selected">高中战绩榜</td>
+						<td>初中战绩榜</td>
+						<td>进步战绩榜</td>
+					</tr>
+					<tr>
+						<td>优秀学员</td><td>成绩</td><td>学习时间</td>
+					</tr>
+				</thead>
+			</table>
+			<div id="d1" style="height:300px;overflow:hidden;margin-top:-20px;">
+				<div id="d2">
+					<table class="table bg table-responsive">
+						<tbody>
+							<tr>
+								<td>周*贤</td>
+								<td>693分，被北京大学法学院专业录取</td>
+								<td>6个月</td>
+							</tr>
+							<tr>
+								<td>袁*</td>
+								<td>676分，被中国人民大学录取，其中高考化学满分</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>叶*宇</td>
+								<td>673分，被浙江大学机械自动化专业录取，其中数学高考满分</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>吴*婷</td>
+								<td>682分，被中国科技大学录取，其中生物科目高考满分</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>史*林</td>
+								<td>668分，被华中科技大学录取，其中英语提高35分</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>邵*钢</td>
+								<td>683分，语文提高20分，英语提高26分，被复旦大学录取</td>
+								<td>6个月</td>
+							</tr>
+							<tr>
+								<td>马*然</td>
+								<td>数学高考满分，广东考生，被华东一211高校录取</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>李*瑜</td>
+								<td>648分，被武汉大学录取，浙江考生</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>梁*</td>
+								<td>总分提高116分，最后考入985高校</td>
+								<td>3个月</td>
+							</tr>
+							<tr>
+								<td>李*旋</td>
+								<td>632分，英语提高35分，最后顺利考入南京大学</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>李*原</td>
+								<td>理科综合提高60分，顺利考入一级重点大学</td>
+								<td>7个月</td>
+							</tr>
+							<tr>
+								<td>金*</td>
+								<td>640分，被中南财经政法大学录取，文综提高48分</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>贾*如</td>
+								<td>626分，被吉林大学录取</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>胡*艳</td>
+								<td>619分，被东南大学录取</td>
+								<td>5个月</td>
+							</tr>
+							<tr>
+								<td>郭*可</td>
+								<td>总分提高96分，辅导前成绩处于中下等，后被211大学录取</td>
+								<td>8个月</td>
+							</tr>
+							<tr>
+								<td>范*隽</td>
+								<td>664分，物理满分，被浙江大学录取</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>邓*</td>
+								<td>英语提高28分，数学提高32分，最后被上海交通大学录取</td>
+								<td>6个月</td>
+							</tr>
+							<tr>
+								<td>陈*杰</td>
+								<td>609分，被中南大学录取</td>
+								<td>3个月</td>
+							</tr>
+							<tr>
+								<td>姜*艳</td>
+								<td>617分，辅导后数学提高19分，被大连理工大学录取</td>
+								<td>4个月</td>
+							</tr>
+							<tr>
+								<td>胡*艳</td>
+								<td>理综提高40分，英语提高10分，年级名次提高30名，考入211大学</td>
+								<td>6个月</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="d3" style="margin-top:-20px;"></div>
+			</div>
+			
+			<br /><br /><br />
+		</div>
+		
+		<div id="five-advantages" class="container table-responsive">
+			<h1>辅导君<span>5大优势</span>，助孩子快速提分</h1>
+			<h3><span>超高性价比</span>课程，首课<span>0元试听</span>，满意后再付费</h3>
+			<br><br>
+			<table class="table">
+				<tr>
+					<td rowspan="2">
+						<img src="img/image_index/fudaojun_strength_1.png" name="1" class="img-responsive" title="点我看详细" onclick="showAsLightBox(this)">
+					</td>
+					<td>
+						<img src="img/image_index/fudaojun_strength_2.png" name="2" class="img-responsive" title="点我看详细" onclick="showAsLightBox(this)">
+					</td>
+					<td>
+						<img src="img/image_index/fudaojun_strength_4.png" name="3" class="img-responsive" title="点我看详细" onclick="showAsLightBox(this)">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/image_index/fudaojun_strength_3.png" name="4" class="img-responsive" title="点我看详细" onclick="showAsLightBox(this)">
+					</td>
+					<td>
+						<img src="img/image_index/fudaojun_strength_5.png" name="5" class="img-responsive" title="点我看详细" onclick="showAsLightBox(this)">
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="course" class="table-responsive">
+			<br><br><br>
+			
+			<table class="table">
+				<caption>
+					<h1><span>覆盖9大学科</span>，不放过任何一个提分点</h1>
+					<h3><span>一线名师</span>教研团队任课程主设，深挖<span>中高考热点</span>，把关教师培训，<span>全面提升教学品质</span></h3>
+					<br><br><br>
+					<div class="btn-group btn-align-center">
+						<button class="btn btn-danger">高中课程</button>
+						<button class="btn btn-default">初中课程</button>
+					</div>
+				</caption>
+				<tr>
+					<td><img src="img/image_index/fudaojun_course_chinese_new.png" class="img-responsive"><a href="#">高中语文</a></td>
+					<td><img src="img/image_index/fudaojun_course_math_new.png" class="img-responsive"><a href="#">高中数学</a></td>
+					<td><img src="img/image_index/fudaojun_course_english_new.png" class="img-responsive"><a href="#">高中英语</a></td>
+					<td><img src="img/image_index/fudaojun_course_physics_new.png" class="img-responsive"><a href="#">高中物理</a></td>
+					<td><img src="img/image_index/fudaojun_course_chemistry_new.png" class="img-responsive"><a href="#">高中化学</a></td>
+				</tr>
+				<tr>
+					<td><img src="img/image_index/fudaojun_course_biology_new.png" class="img-responsive"><a href="#">高中生物</a></td>
+					<td><img src="img/image_index/fudaojun_course_geography_new.png" class="img-responsive"><a href="#">高中地理</a></td>
+					<td><img src="img/image_index/fudaojun_course_exam.png" class="img-responsive"><a href="#">高中会考</a></td>
+					<td><img src="img/image_index/fudaojun_course_sprint.png" class="img-responsive"><a href="#">高中冲刺</a></td>
+					<td><img src="img/image_index/fudaojun_course_special_new.png" class="img-responsive"><a href="#">高中精讲</a></td>
+				</tr>
+
+			</table>
+		</div>
+
+		<div id="step" style="text-align:center;">
+			<br><br><br>
+			<h1><span>0元体验</span>名校老师真人在线<span>1对1课程</span></h1>
+			<h4>仅需<span>3步</span></h4>
+			<img src="img/image_index/fudaojun_exam_step.png" class="img-responsive">
+			<br>
+			<button class="btn btn-danger btn-size" onclick="showAppointMsg()">立即咨询</button>
+			<br><br>
+		</div>
+
+		<div id="achievement">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<h2>合作&成就</h2>
+						<hr>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<br>
+						<img src="img/image_index/achievement_1.png" class="img-responsive">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<br>
+						<img src="img/image_index/achievement_2.png" class="img-responsive">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<br>
+						<img src="img/image_index/achievement_3.png" class="img-responsive">
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<br>
+						<img src="img/image_index/achievement_4.png" class="img-responsive">
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<div id="media">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12" style="border:none;">
+						<h2>媒体报道<span>国内多家媒体专业报道</span></h2>
+						<hr>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+						<a href="http://news.163.com/16/0831/20/BVQSAGRM00014SEH.html"><img src="img/image_index/fudaojun_media_10.png" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://kuaibao.qq.com/s/20160831A02THW00"><img src="img/image_index/fudaojun_media_11.png" class="img-responsive"></a>
+					</div>	
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://www.qlwb.com.cn/2016/0831/712931.shtml"><img src="img/image_index/fudaojun_media_12.png" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://news.sina.com.cn/o/2016-03-24/doc-ifxqssxu8093147.shtml"><img src="img/image_index/fudaojun_media_1.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://edu.163.com/16/0714/16/BRUTLMSR00294KHN.html"><img src="img/image_index/fudaojun_media_2.png" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+						<a href="http://edu.southcn.com/jygd/content/2016-07/14/content_151437214.htm"><img src="img/image_index/fudaojun_media_3.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://edu.enorth.com.cn/system/2016/07/14/031064933.shtml"><img src="img/image_index/fudaojun_media_4.jpg" class="img-responsive"></a>
+					</div>	
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://www.toutiao.com/i6307153333861745153/"><img src="img/image_index/fudaojun_media_5.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://edu.21cn.com/chuzhong/g_323_1163183-1.htm"><img src="img/image_index/fudaojun_media_6.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://hubei.eol.cn/jybt/201607/t20160714_1430333.shtml"><img src="img/image_index/fudaojun_media_7.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-offset-1">
+						<a href="http://www.edu.citynx.com/html/edu/20160506/9581.shtml?nsukey=3ldXbxNWR814xWU7AU8GTsGy7v6xlcct0C2XlxpkMUdKOl2NvxGswwym7tsAWStBO%2FF%2B8Vkj1wP2QHcT9KdKdQ%3D%3D"><img src="img/image_index/fudaojun_media_8.jpg" class="img-responsive"></a>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6">
+						<a href="http://www.edu-gov.cn/news/39150.html?1468486233"><img src="img/image_index/fudaojun_media_9.jpg" class="img-responsive"></a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="appoint">
+		<div id="appointMsg" class="table-responsive" style="opacity: 1;background-color: rgb(239,142,125);">
+			<form role="form">
+				<table class="table">
+					<caption>
+						<a href="javascript:closeFrame();">X</a>
+					</caption>
+					<tr>
+						<td><img src="img/fudaojun_window_form_pic.png" class="img-responsive"></td>
+						<td>
+						<br><br>
+							<h3>立即免费预约:</h3>
+							<input id="name" name="" class="form-control" placeholder="请输入您的姓名"><br>
+							<input name="" class="form-control" placeholder="请输入您的手机"><br>
+							<label for="name"></label><br>
+							<button class="btn btn-default">完成预约</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+				
+		</div>
+	</div>
+	
+	<div id="lightbox">
+		<div id="showMsg"></div>
+	</div>
+	
+	<!--右侧边栏-->
+	<aside>
+		<div class="right-column">
+			<a href="javascript:showAppointMsg();" class="custom-service">
+				<img src="img/fudaojun_float_member.png" alt="在线客服">
+				<div class="bubble">在线客服</div>
+			</a>
+	        <a href="javascript:showAppointMsg();" title="QQ咨询" class="qq">
+				<img src="img/fudaojun_float_qq.png" alt="QQ咨询">
+				<div class="bubble">QQ咨询</div>
+			</a>
+			<a href="javascript:void(0);" title="热线电话" class="service-tel">
+				<img src="img/fudaojun_float_tel.png" alt="热线电话">
+				<div class="bubble">400-036-2990</div>
+			</a>
+			<a href="" title="返回顶部" target="_top">
+				<img src="img/fudaojun_float_top.png" alt="返回顶部"></a>
+		</div>
+	</aside>
+
+	<footer>
+		<div class="container-fluid bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>帮助中心</span></h5>
+							<ul>
+								<li><a href="#">使用帮助</a></li>
+								<li><a href="faq.html">意见反馈</a></li>
+								<li><a href="#">学习指导</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5><span>关于我们</span></h5>
+							<ul>
+								<li><a href="about.html">公司介绍</a></li>
+								<li><a href="about.html">加入我们</a></li>
+								<li><a href="rule.html">网站条款</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-12">
+						<div>
+							<h5>	<span>联系我们</span></h5>
+							<ul>
+								<li><a href="#">400-036-2990</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
+						<div class="row">
+							<h5><span>关注我们</span></h5>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat.png"/>
+								<p>辅导君微信服务号</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<img src="img/fudaojun_wechat_dayijun.png"/>
+								<p>答疑君微信服务号</p>
+							</div>
+						</div>
+					</div>					
+				</div>
+				
+				<div class="row copyriht text-left">
+					<p>Copyright &copy;  2016 杭州微著网络有限公司 |
+					<a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" 
+						title="ICP" target="_blank">
+						浙ICP备09061298号-5 <img src="img/fudaojun_police.png" width="16px">
+					</a>
+					| 浙江省杭州市古墩路413号文新图书大楼9F</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+
+</body>
+</html>

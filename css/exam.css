@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*老师推荐*/
+#part_recommend h1{
+	font-size:44px; 
+	font-family: "方正兰亭粗黑_GBK","微软雅黑"; 
+	font-weight:normal; color:#333; 
+	text-align:center;
+}
+.teac_intr{ 
+	width:274px; 
+	height:118px; 
+	overflow:hidden; 
+	background:#fff; 
+	padding-top:10px;
+}
+.teac_intr .name{ 
+	height:40px; 
+	font-size:24px; 
+	color:#000;
+}
+.teac_intr .name span{
+ 	padding:0 14px 1px 14px;
+ 	border-radius:20px; 
+ 	font-size:14px; text-align:center; 
+ 	border:1px solid #f26355; 
+ 	color:#f26355; 
+ 	margin-left:12px;
+ }
+.teac_intr .school{
+	height:26px;
+	font-size:16px; 
+	color:#000;}
+.teac_intr .school img{ 
+	width:17px; 
+	height:17px; 
+	float:left; 
+	margin-right:6px;
+}
+.teac_intr .intro{ 
+	font-size:16px; 
+	color:#666; 
+	line-height:24px;
+}
+.a{ 
+	width:274px;
+	height:30px; 
+	display:block;
+	text-align:center; 
+	margin-top:8px;
+}
+.a:after{ 
+	content:""; 
+	width:13px; 
+	height:6px; 
+	background: url(../img/img_exam/arrow.png) no-repeat center; 
+	position:absolute; 
+	left:145px; 
+	bottom:6px;
+}
+.teac-intro-wrapper {
+	position: relative;
+	height: 120px;
+}
+
+.position_center{ 
+	text-align:center;
+}
+.position_center span{
+	color: red;
+}

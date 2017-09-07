@@ -1,0 +1,61 @@
+
+.faq-headline{ 
+	width:100%; 
+	height:36px; 
+	border-bottom:2px solid #f26355; 
+	font-size:18px; 
+	line-height:36px; 
+	text-align:left; 
+	margin-top:50px; 
+	margin-bottom:25px;
+	}
+.faq-headline span{ 
+	font-size:14px;
+	}
+.faq-content{ 
+	 
+	padding:25px 25px 50px; 
+	background-color:#f7f7f7;
+	}
+.faq-content li{ 
+
+	background-color:#fff; 
+	margin-bottom:12px; 
+	border:1px solid #ddd;
+	}
+.faq-content li h5{
+	
+	color:#333;
+	font-size:18px;
+	cursor:pointer;
+	
+	text-indent:18px;
+	position:relative;
+	}
+.faq-content li h5 .unfold,.faq-content li h5 .fold{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	position:absolute;
+	right:18px;
+	top:2px;
+	}
+.faq-content li h5 .fold{
+	background:url(../img/fudaojun_faq_fold.png) 
+	no-repeat;
+	}
+.faq-content li h5 .unfold{
+	background:url(../img/fudaojun_faq_unfold.png) 
+	no-repeat;
+	}
+.faq-content li .answer{
+	padding:10px 47px;
+	border-top:1px dashed #dddddd;
+	background:#fff;color:#666;
+	margin-bottom:5px; 
+	display:none;
+	}
+.faq-content .noAnswer a{ 
+	color:#f26355;
+	}

@@ -1,0 +1,65 @@
+#top_bg{
+	height: 500px;
+	background-color: rgb(38,198,138);
+}
+#img{
+	
+	height: 500px;
+	background-image: url(../img/word_achievement2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.row img{
+	margin: 40px;
+}
+
+
+
+.t1{       
+	max-width: 800px;
+	margin: 0 auto;
+}
+.bang tbody tr td{
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	color: darkgray;
+}
+.t1 h1{
+	color: rgb(252,85,66);
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.t1 thead tr th{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+.t1 thead tr{
+	background-color: rgb(252,85,66);
+}
+section table td{
+	border: 1px solid lightgray;
+}
+
+.t2{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.t2 h1{
+	color: rgb(38,198,138);
+	margin-bottom: 40px;
+	margin-top: 80px;
+}
+.t2 thead tr th{
+	color: white;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+.t2 thead tr{
+	background-color: rgb(38,198,138);
+}
+
